@@ -46,23 +46,12 @@
 				<span>체험</span>
 				</c:if>
 				<c:if test="${cate eq 'C' }">
-				<span>행사</span>
+				<span>문화</span>
 				</c:if>
 				<c:if test="${grade eq 'D' }">
-				<span>축제</span>
-				</c:if>
-				<c:if test="${cate eq 'E' }">
-				<span>숙박</span>
-				</c:if>
-				<c:if test="${cate eq 'F' }">
 				<span>음식</span>
 				</c:if>
-				<c:if test="${cate eq 'G' }">
-				<span>쇼핑</span>
-				</c:if>
-				<c:if test="${cate eq 'H' }">
-				<span>기타</span>
-				</c:if>
+				
 		      </td>
 		      <td>
 		      	<a href="${path1 }/GetTourDetailCtrl.do?no=${dto.no }">${dto.place }</a>

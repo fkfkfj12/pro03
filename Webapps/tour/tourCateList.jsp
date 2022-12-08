@@ -29,23 +29,12 @@
 			<span>체험</span>
 			</c:if>
 			<c:if test="${cate eq 'C' }">
-			<span>행사</span>
+			<span>문화</span>
 			</c:if>
 			<c:if test="${grade eq 'D' }">
-			<span>축제</span>
-			</c:if>
-			<c:if test="${cate eq 'E' }">
-			<span>숙박</span>
-			</c:if>
-			<c:if test="${cate eq 'F' }">
 			<span>음식</span>
 			</c:if>
-			<c:if test="${cate eq 'G' }">
-			<span>쇼핑</span>
-			</c:if>
-			<c:if test="${cate eq 'H' }">
-			<span>기타</span>
-			</c:if>
+			
 	    </a></li>
 	  </ul>
 	</nav>
@@ -68,23 +57,12 @@
 						<span>체험</span>
 						</c:if>
 						<c:if test="${cate eq 'C' }">
-						<span>행사</span>
+						<span>문화</span>
 						</c:if>
-						<c:if test="${grade eq 'D' }">
-						<span>축제</span>
-						</c:if>
-						<c:if test="${cate eq 'E' }">
-						<span>숙박</span>
-						</c:if>
-						<c:if test="${cate eq 'F' }">
+						<c:if test="${cate eq 'D' }">
 						<span>음식</span>
 						</c:if>
-						<c:if test="${cate eq 'G' }">
-						<span>쇼핑</span>
-						</c:if>
-						<c:if test="${cate eq 'H' }">
-						<span>기타</span>
-						</c:if>
+						
 			          </p>
 			          <figure class="image is-4by3">
 			            <img src="${path1 }/upload/${dto.imgURL }" alt="${dto.place }">

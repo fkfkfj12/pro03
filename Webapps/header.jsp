@@ -21,7 +21,7 @@
 		    	<!-- ajax로 메뉴 로딩하여 추가하기 -->
 				<div class="navbar-item has-dropdown is-hoverable">
 			    	<a href="${path2 }/GetTourCateListCtrl.do?cate=A" class="navbar-link" >
-				      	명소관광
+				      	관광
 				    </a>
 				    <div class="navbar-dropdown cate" id="cate01">
 				    
@@ -29,7 +29,7 @@
 				</div>
 				<div class="navbar-item has-dropdown is-hoverable">
 			    	<a href="${path2 }/GetTourCateListCtrl.do?cate=B" class="navbar-link cate">
-				      	체험관광
+				      	체험
 				    </a> 
 		   		    <div class="navbar-dropdown cate" id="cate02">
 				    
@@ -37,7 +37,7 @@
 				</div>
 				<div class="navbar-item has-dropdown is-hoverable">
 			    	<a href="${path2 }/GetTourCateListCtrl.do?cate=C" class="navbar-link cate">
-				      	문화체험
+				      	문화
 				    </a>
 		   		    <div class="navbar-dropdown cate" id="cate03">
 				    
@@ -63,7 +63,7 @@
 					       	공지사항
 					     </a>
 					   
-					     <a class="navbar-item" href="${path2 }/GetNoticeListCtrl2.do">
+					     <a class="navbar-item" href="${path2 }/GetQnaListCtrl.do">
 					       	자주하는 질문
 					     </a>
 					</div> 

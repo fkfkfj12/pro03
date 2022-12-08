@@ -121,4 +121,4 @@ create table qna(
     parno INT,          			
     sec char(1),                
     visited INT DEFAULT 0
-);
+);tourtour
